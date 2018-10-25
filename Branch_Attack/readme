@@ -1,0 +1,14 @@
+1. First generate the secret scalar and scalar splitted values
+
+>> python initiate.py arg1 arg2
+where arg1 = number of bits in secret scalar
+arg2 = number of traces to be collected
+
+2.Collect traces of branch misses for both the split scalar and the random binary
+>> python collect_trace.py 
+generates traces of both the split scalar and random binary 
+
+3. python wrapper.py 45 
+To run the analysis for the 45th bit
+
+Outputs the result for the secret scalar bit at the 45th location
