@@ -1,6 +1,6 @@
 1. First generate the secret scalar and scalar splitted values
 
->> mkdir saved
+>> mkdir saved to_match reconstructed for_samples
 >> python initiate.py arg1 arg2
 where arg1 = number of bits in secret scalar
 arg2 = number of traces to be collected
